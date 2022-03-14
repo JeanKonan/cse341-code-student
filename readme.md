@@ -27,6 +27,6 @@
 Each branch contains a collection of code for a given assignment or class activity. Select a branch, and then either clone, fork, or download the zip file to access the files on your computer.
 
 - This is a bulleted list
+- This is a bulletasdfasdfaed list
 - This is a bulleted list
 - This is a bulleted list
->>>>>>> 8e278b6 (adding bullets to readme)
