@@ -25,9 +25,12 @@
 [GitHub Repo](https://github.com/byui-cse/cse341-code-student/tree/L05-class-complete)
 =======
 Each branch contains a collection of code for a given assignment or class activity. Select a branch, and then either clone, fork, or download the zip file to access the files on your computer.
+<<<<<<< HEAD
 
 - This is a bulleted list
 - This is a bulletasdfasdfaed list
 - This is a bulleted list
 - This is a bulleasdfasdfted list
 - This is a bulleted list
+=======
+>>>>>>> 3eef534 (fixing tutorial:)
