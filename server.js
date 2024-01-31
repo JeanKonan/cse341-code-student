@@ -1,3 +1,7 @@
+//import
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger-output.json');
+
 // Get dependencies
 var express = require('express');
 var path = require('path');
@@ -40,6 +44,8 @@ app.use((req, res, next) => {
 // Tell express to use the specified director as the
 // root directory for your web site
 app.use(express.static(path.join(__dirname, 'dist/cms')));
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument)); 
 
 // Tell express to map the default route ('/') to the index route
 app.use('/', index);
